@@ -1,6 +1,12 @@
 # Varejonline - Projeto #
 Projeto avaliativo para novos colaboradores.
 
+# Perfil Gerente
+# Senha: 12345
+
+# Perfil Operador
+# Senha: 12345
+
 ## Iniciando ##
 O projeto consiste no desenvolvimento de um pequeno sistema de Controle de Estoque com os seguintes requisitos:
 
