@@ -1,0 +1,9 @@
+<form (ngSubmit)="saveMovement()">
+  <select [(ngModel)]="movement.productId">
+    <option *ngFor="let product of products" [value]="product.id">{{ product.name }}</option>
+  </select>
+  <input type="text" [(ngModel)]="movement.type" placeholder="Movement Type">
+  <!-- Other movement fields -->
+
+  <button type="submit">Save</button>
+</form>

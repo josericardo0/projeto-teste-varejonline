@@ -1,0 +1,5 @@
+<form (ngSubmit)="saveProduct()">
+  <input type="text" [(ngModel)]="product.name" placeholder="Product Name">
+  <input type="number" [(ngModel)]="product.barcode" placeholder="Barcode">
+  <button type="submit">Save</button>
+</form>
